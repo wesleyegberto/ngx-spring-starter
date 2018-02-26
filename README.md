@@ -9,10 +9,10 @@ Goals:
 
 ### How to use
 
-* To run in watch mode use: ```sh run_dev.sh```
+* To run in watch mode use: ```mvn spring-boot:run -Prun-dev```
   * To access app: http://localhost:4200
   * To access API: http://localhost:8080
   * Don't need CORS because the Angular's proxy will redirect to server.
 
 
-* To generate the UberJar: ```mvn clean install```
+* To generate the UberJar: ```mvn clean package -Pprod```
