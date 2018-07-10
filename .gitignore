@@ -9,6 +9,7 @@ target/
 .settings
 .springBeans
 .tern-project
+/.metadata/
 
 ### IntelliJ IDEA ###
 .idea
